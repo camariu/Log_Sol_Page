@@ -25,14 +25,12 @@ export default function Header() {
   };
 
   return (
-    <AppBar position="fixed" sx={{ backgroundColor: '#1D1260', boxShadow: '0px 0px 0px 0px', height:"80px" }}>
+    <AppBar position="relative" sx={{ backgroundColor: '#1D1260', boxShadow: '0px 0px 0px 0px', height:"80px" }}>
       <Toolbar
         sx={{
           display: 'flex',
           justifyContent: 'center',
           marginTop: '19.2px',
-
-          
         }}
       >
         <Box
@@ -52,7 +50,6 @@ export default function Header() {
             </Button>
           ))}
         </Box>
-
         <Box
           sx={{
             marginLeft: '158px',
@@ -76,7 +73,6 @@ export default function Header() {
             Shop
           </Button>
         </Box>
-
         <Box
           sx={{
             alignItems: 'center',
@@ -89,7 +85,6 @@ export default function Header() {
             <img src={logo} alt="" />
           </Box>
         </Box>
-
         <Box
           sx={{
             marginLeft: 'auto',
