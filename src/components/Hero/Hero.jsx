@@ -13,8 +13,10 @@ export default function Hero() {
       container
       spacing={3}
       sx={{
+        backgroundColor:"#1D1260",
         [theme.breakpoints.down('sm')]: {},
         [theme.breakpoints.up('md')]: {},
+
       }}
     >
       <Grid
