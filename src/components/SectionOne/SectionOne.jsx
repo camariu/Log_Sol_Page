@@ -4,8 +4,8 @@ import React from 'react';
 export default function SectionOne() {
   const theme = useTheme();
   return (
-    <Box>
-      <Box sx={{ backgroundColor: '#0A0048', width: '100%' }}>
+    <Box >
+      <Box sx={{ backgroundColor: '#0A0048', width: '100%', zIndex: 20, position:"relative" }}>
         <Box
           sx={{
             [theme.breakpoints.down('sm')]: {

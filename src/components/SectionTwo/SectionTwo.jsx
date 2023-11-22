@@ -12,9 +12,11 @@ import elipse90 from "../../assets/images/Ellipse90.png"
  export default function SectionTwo() {
   const theme = useTheme();
    return (
-    <Box >
+    <Box    >
     <Box>
       <Box sx={{
+    
+    
         [theme.breakpoints.down('sm')]: {
         
 
