@@ -16,16 +16,30 @@ import shopIcon from '../../assets/svg/shop-icon.svg';
 import style from './Header.module.css';
 
 export default function Header() {
-  const menuItems = ['Home', 'Product', 'Resource', 'Community', 'Contact', 'About'];
+  const menuItems = [
+    'Home',
+    'Product',
+    'Resource',
+    'Community',
+    'Contact',
+    'About',
+  ];
 
   const [menu, setMenu] = useState(null);
 
-  const handleOpenMenu = (event) => {
+  const handleOpenMenu = event => {
     setMenu(event.currentTarget);
   };
 
   return (
-    <AppBar position="relative" sx={{ backgroundColor: '#1D1260', boxShadow: '0px 0px 0px 0px', height:"80px" }}>
+    <AppBar
+      position="relative"
+      sx={{
+        backgroundColor: '#1D1260',
+        boxShadow: '0px 0px 0px 0px',
+        height: '80px',
+      }}
+    >
       <Toolbar
         sx={{
           display: 'flex',
@@ -69,7 +83,11 @@ export default function Header() {
               },
             }}
           >
-            <img src={shopIcon} alt="" style={{ marginRight: '5px', color: 'red' }} />
+            <img
+              src={shopIcon}
+              alt=""
+              style={{ marginRight: '5px', color: 'red' }}
+            />
             Shop
           </Button>
         </Box>
@@ -81,7 +99,7 @@ export default function Header() {
             margin: '0px',
           }}
         >
-          <Box sx={{ marginRight: 'auto',  }}>
+          <Box sx={{ marginRight: 'auto' }}>
             <img src={logo} alt="" />
           </Box>
         </Box>
@@ -131,7 +149,14 @@ export default function Header() {
                 )}
               </MenuItem>
             ))}
-            <Box sx={{ backgroundColor: '#1D1260', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <Box
+              sx={{
+                backgroundColor: '#1D1260',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
+            >
               <Button
                 color="inherit"
                 sx={{
@@ -144,10 +169,16 @@ export default function Header() {
                   },
                 }}
               >
-                <img src={shopIcon} alt="" style={{ marginRight: '5px', color: 'red' }} />
+                <img
+                  src={shopIcon}
+                  alt=""
+                  style={{ marginRight: '5px', color: 'red' }}
+                />
                 Shop
               </Button>
-              <Typography variant="body1">© 2021-2022, All Rights Reserved</Typography>
+              <Typography variant="body1">
+                © 2021-2022, All Rights Reserved
+              </Typography>
             </Box>
           </Menu>
         </Box>
