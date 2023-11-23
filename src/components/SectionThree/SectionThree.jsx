@@ -34,8 +34,7 @@ export default function SectionThree() {
           width:"350px"
         },
         [theme.breakpoints.up('md')]: {
-         marginLeft:"125px",
-         paddingBottom:"72px"
+         marginLeft:"125px"
         },
       }}>
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
@@ -60,7 +59,7 @@ export default function SectionThree() {
             },
             [theme.breakpoints.between('sm', 'md')]: {
               fontSize:"30px",
-              paddingBottom:"31px"
+              paddingBottom:"32px"
             },
             [theme.breakpoints.up('md')]: {
               fontSize:"50px"
