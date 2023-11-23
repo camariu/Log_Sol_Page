@@ -37,12 +37,12 @@ export default function Footer() {
             },
             display: 'grid',
             gridTemplateColumns: {
-              xs: 'auto auto',  
-              sm: 'auto auto',  
-              md: 'auto auto auto auto auto ',  
-              lg: 'auto auto auto auto auto ',  
+              xs: 'auto auto',
+              sm: 'auto auto',
+              md: 'auto auto auto auto auto ',
+              lg: 'auto auto auto auto auto ',
             },
-            gap: 'auto',  
+            gap: 'auto',
           }}
         >
           <Box>

@@ -96,7 +96,6 @@ export default function Header() {
             alignItems: 'center',
             justifyContent: 'center',
             display: { xs: 'flex', md: 'none' },
-           
           }}
         >
           <Box sx={{ marginRight: 'auto' }}>
@@ -127,21 +126,19 @@ export default function Header() {
               marginTop: '80px',
               width: '100vw',
               zIndex: 1000,
-              display:"flex",
-              justifyContent:"center",
+              display: 'flex',
+              justifyContent: 'center',
               '& .css-6hp17o-MuiList-root-MuiMenu-list': {
                 backgroundColor: '#1D1260',
-                display:"flex",
-                flexDirection:"column",
-                gap:"30px",
-                boxShadow:"0px 0px 0px 0px",
-             
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '30px',
+                boxShadow: '0px 0px 0px 0px',
               },
 
-              '& .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper':{
-                boxShadow:"0px 0px 0px 0px",
-
-              }
+              '& .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper': {
+                boxShadow: '0px 0px 0px 0px',
+              },
             }}
           >
             {menuItems.map((menuItem, index) => (
@@ -153,7 +150,7 @@ export default function Header() {
                   width: '100vw',
                   zIndex: 2000,
                   display: 'flex',
-                 
+
                   '&:hover': {
                     backgroundColor: 'rgba(245, 116, 56, 0.8)',
                   },
@@ -176,7 +173,7 @@ export default function Header() {
               <Button
                 color="inherit"
                 sx={{
-                  color:"#FFF",
+                  color: '#FFF',
                   padding: '12px',
                   backgroundColor: '#F57438',
                   width: '323px',
@@ -193,7 +190,14 @@ export default function Header() {
                 />
                 Shop
               </Button>
-              <Typography variant="body1" sx={{color:"RGBA(255,255,255,0.7 )", paddingTop:"22px", paddingBottom:"25px"}}>
+              <Typography
+                variant="body1"
+                sx={{
+                  color: 'RGBA(255,255,255,0.7 )',
+                  paddingTop: '22px',
+                  paddingBottom: '25px',
+                }}
+              >
                 © 2021-2022, All Rights Reserved
               </Typography>
             </Box>

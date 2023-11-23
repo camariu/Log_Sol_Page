@@ -1,6 +1,6 @@
 import { Box, Button, useTheme, Typography } from '@mui/material';
 import React from 'react';
-import buySvg from "../../assets/svg/Buy.svg"
+import buySvg from '../../assets/svg/Buy.svg';
 
 export default function LastSection() {
   const theme = useTheme();
@@ -9,13 +9,13 @@ export default function LastSection() {
       sx={{
         backgroundColor: '#1D1260',
         [theme.breakpoints.down('sm')]: {
-            height:"612px"
+          height: '612px',
         },
         [theme.breakpoints.between('sm', 'md')]: {
-            height:"655px"
+          height: '655px',
         },
         [theme.breakpoints.up('md')]: {
-          height:"731px"
+          height: '731px',
         },
       }}
     >
@@ -24,8 +24,8 @@ export default function LastSection() {
           [theme.breakpoints.down('sm')]: {
             display: ' flex',
             flexDirection: 'column',
-            justifyContent:"center",
-            alignItems:"center"
+            justifyContent: 'center',
+            alignItems: 'center',
           },
           [theme.breakpoints.between('sm', 'md')]: {
             display: ' flex',
@@ -38,39 +38,38 @@ export default function LastSection() {
       >
         <Box>
           <Box>
-            <Typography variant="h4"  sx={{
-                color:"#fff",
-          [theme.breakpoints.down('sm')]: {
-            width:"213px",
-            height:"84px",
-            fontSize:"28px",
-            paddingTop:"203px"
-          },
-          [theme.breakpoints.between('sm', 'md')]: {
-            
-          },
-          [theme.breakpoints.up('md')]: {
-            
-          },
-        }}>Let's get it now robot sally</Typography>
+            <Typography
+              variant="h4"
+              sx={{
+                color: '#fff',
+                [theme.breakpoints.down('sm')]: {
+                  width: '213px',
+                  height: '84px',
+                  fontSize: '28px',
+                  paddingTop: '203px',
+                },
+                [theme.breakpoints.between('sm', 'md')]: {},
+                [theme.breakpoints.up('md')]: {},
+              }}
+            >
+              Let's get it now robot sally
+            </Typography>
           </Box>
           <Box>
-            <Typography variant="body1" sx={{
-                color:"RGBA(255,255,255,0.7 )",
-          [theme.breakpoints.down('sm')]: {
-            width:"333px",
-            height:"73px",
-            fontSize:"14px",
-            paddingTop:"16px"
-          
-          },
-          [theme.breakpoints.between('sm', 'md')]: {
-            
-          },
-          [theme.breakpoints.up('md')]: {
-            
-          },
-        }}>
+            <Typography
+              variant="body1"
+              sx={{
+                color: 'RGBA(255,255,255,0.7 )',
+                [theme.breakpoints.down('sm')]: {
+                  width: '333px',
+                  height: '73px',
+                  fontSize: '14px',
+                  paddingTop: '16px',
+                },
+                [theme.breakpoints.between('sm', 'md')]: {},
+                [theme.breakpoints.up('md')]: {},
+              }}
+            >
               Make your video experience amazing and join thousands of satisfied
               customers already using robot sally
             </Typography>
@@ -78,23 +77,18 @@ export default function LastSection() {
         </Box>
         <Box>
           <Box
-          sx={{
-            [theme.breakpoints.down('sm')]: {
-              
-                paddingTop:"32px"
-              
+            sx={{
+              [theme.breakpoints.down('sm')]: {
+                paddingTop: '32px',
               },
-              [theme.breakpoints.between('sm', 'md')]: {
-                
-              },
-              [theme.breakpoints.up('md')]: {
-                
-              }
-          }}>
+              [theme.breakpoints.between('sm', 'md')]: {},
+              [theme.breakpoints.up('md')]: {},
+            }}
+          >
             <Button
               color="inherit"
               sx={{
-                color:"white",
+                color: 'white',
                 padding: '12px',
                 backgroundColor: '#F57438',
                 width: '343px',
@@ -114,21 +108,20 @@ export default function LastSection() {
           </Box>
           <Box>
             {' '}
-            <Typography variant="body1" sx={{
-                color:"RGBA(255,255,255,0.7 )",
-          [theme.breakpoints.down('sm')]: {
-            width:"337px",
-            height:"47px",
-            fontSize:"14px",
-            paddingTop:"32px"
-          },
-          [theme.breakpoints.between('sm', 'md')]: {
-            
-          },
-          [theme.breakpoints.up('md')]: {
-            
-          },
-        }}>
+            <Typography
+              variant="body1"
+              sx={{
+                color: 'RGBA(255,255,255,0.7 )',
+                [theme.breakpoints.down('sm')]: {
+                  width: '337px',
+                  height: '47px',
+                  fontSize: '14px',
+                  paddingTop: '32px',
+                },
+                [theme.breakpoints.between('sm', 'md')]: {},
+                [theme.breakpoints.up('md')]: {},
+              }}
+            >
               Sally's robot is only made limited, so who's quick he gets
             </Typography>
           </Box>
