@@ -36,7 +36,7 @@ export default function SectionThree() {
             <Box>
               <Box sx={{ display: 'flex', alignItems: 'center' }}>
                 <Typography>See the latest </Typography>
-                <img src={flashIcon}></img>
+                <img src={flashIcon} alt='info'/>
               </Box>
             </Box>
           </Box>
