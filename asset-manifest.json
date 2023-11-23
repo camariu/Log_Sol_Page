@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/logarithmic_page/static/css/main.1bc65ea4.css",
-    "main.js": "/logarithmic_page/static/js/main.c8d71a5f.js",
+    "main.js": "/logarithmic_page/static/js/main.b4dd254e.js",
     "static/media/Pattern.png": "/logarithmic_page/static/media/Pattern.54cc3ea7315ab07ba8e9.png",
     "static/media/mickiImage.png": "/logarithmic_page/static/media/mickiImage.6e9e3362111b9d51b20c.png",
+    "static/media/Buy.svg": "/logarithmic_page/static/media/Buy.44e1f5643c5ba0fbc2e0efbba3a3e091.svg",
     "static/media/shop-icon.svg": "/logarithmic_page/static/media/shop-icon.78eb9029fd29f8e5d08dd2421447699a.svg",
     "static/media/CipIcon.svg": "/logarithmic_page/static/media/CipIcon.12159f04acc46aeffc7fb6c06795c1f2.svg",
     "index.html": "/logarithmic_page/index.html",
     "static/media/logo.svg": "/logarithmic_page/static/media/logo.3a587f2bbc8bc710d7b8a6becfbadd3d.svg",
     "static/media/HardIcon.svg": "/logarithmic_page/static/media/HardIcon.7ddb45bcb3c1ce4e4f58ccccb82eb2c7.svg",
     "main.1bc65ea4.css.map": "/logarithmic_page/static/css/main.1bc65ea4.css.map",
-    "main.c8d71a5f.js.map": "/logarithmic_page/static/js/main.c8d71a5f.js.map"
+    "main.b4dd254e.js.map": "/logarithmic_page/static/js/main.b4dd254e.js.map"
   },
   "entrypoints": [
     "static/css/main.1bc65ea4.css",
-    "static/js/main.c8d71a5f.js"
+    "static/js/main.b4dd254e.js"
   ]
 }
