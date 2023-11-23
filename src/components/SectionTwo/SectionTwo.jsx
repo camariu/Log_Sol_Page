@@ -36,7 +36,8 @@ import elipse90 from "../../assets/images/Ellipse90.png"
           [theme.breakpoints.down('sm')]: {
            display:"flex",
            justifyContent:"center",
-           paddingTop:"39px"
+           paddingTop:"39px",
+        
            
            },
            [theme.breakpoints.between('sm', 'md')]: {

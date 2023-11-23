@@ -26,64 +26,69 @@ export default function Hero() {
         [theme.breakpoints.up('md')]: {},
       }}
     >
-      <Box sx={{
-        position:"absolute", top: 257, left:640, zIndex:100,
-        [theme.breakpoints.down('sm')]: {
-          display:"none"
-        },
-        [theme.breakpoints.between('sm', 'md')]: {
-          display:"none"
-        },
-        [theme.breakpoints.up('md')]: {
-         
-        },
-      }}>
-        <img src={mickiImage}  alt='' width={"724px"} height={"782px"}>
-        </img>
+      <Box
+        sx={{
+          position: 'absolute',
+          top: 257,
+          left: 640,
+          zIndex: 100,
+          [theme.breakpoints.down('sm')]: {
+            display: 'none',
+          },
+          [theme.breakpoints.between('sm', 'md')]: {
+            display: 'none',
+          },
+          [theme.breakpoints.up('md')]: {},
+        }}
+      >
+        <img src={mickiImage} alt="" width={'724px'} height={'782px'}></img>
       </Box>
-      <Box sx={{
-        position:"absolute", top: 257, left:753,
-        [theme.breakpoints.down('sm')]: {
-          display:"none"
-        },
-        [theme.breakpoints.between('sm', 'md')]: {
-          display:"none"
-        },
-        [theme.breakpoints.up('md')]: {   
-        },
-      }}>
-        <img src={spiral} alt='' width={"743px"} height={"743px"}>
-        </img>
+      <Box
+        sx={{
+          position: 'absolute',
+          top: 257,
+          left: 753,
+          [theme.breakpoints.down('sm')]: {
+            display: 'none',
+          },
+          [theme.breakpoints.between('sm', 'md')]: {
+            display: 'none',
+          },
+          [theme.breakpoints.up('md')]: {},
+        }}
+      >
+        <img src={spiral} alt="" width={'743px'} height={'743px'}></img>
       </Box>
-      <Box sx={{
-        position:"absolute", top: 654, zIndex:100,
-        [theme.breakpoints.down('sm')]: {
-          
-        },
-        [theme.breakpoints.between('sm', 'md')]: {
-          display:"none"
-        },
-        [theme.breakpoints.up('md')]: { 
-          display:"none" 
-        },
-      }}>
-        <img src={mickiImage} alt='' width={"376px"} height={"407px"}>
-        </img>
+      <Box
+        sx={{
+          position: 'absolute',
+          top: 654,
+          zIndex: 100,
+          [theme.breakpoints.down('sm')]: {},
+          [theme.breakpoints.between('sm', 'md')]: {
+            display: 'none',
+          },
+          [theme.breakpoints.up('md')]: {
+            display: 'none',
+          },
+        }}
+      >
+        <img src={mickiImage} alt="" width={'376px'} height={'407px'}></img>
       </Box>
-      <Box sx={{
-        position:"absolute", top: 654,
-        [theme.breakpoints.down('sm')]: {
-         
-        },
-        [theme.breakpoints.between('sm', 'md')]: {
-          display:"none"
-        },
-        [theme.breakpoints.up('md')]: {   
-          display:"none"    
-        },      
-      }}>
-        <img src={spiral} alt='' width={"386px"} height={"417px"}>
-        </img>
+      <Box
+        sx={{
+          position: 'absolute',
+          top: 654,
+          [theme.breakpoints.down('sm')]: {},
+          [theme.breakpoints.between('sm', 'md')]: {
+            display: 'none',
+          },
+          [theme.breakpoints.up('md')]: {
+            display: 'none',
+          },
+        }}
+      >
+        <img src={spiral} alt="" width={'386px'} height={'417px'}></img>
       </Box>
       <Box>
         <Typography
@@ -288,9 +293,7 @@ export default function Hero() {
               Use infrared Platinum 2.14
             </Typography>
           </Box>
-          
         </Box>
-        
       </Box>
     </Box>
   );
