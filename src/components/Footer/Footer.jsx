@@ -1,5 +1,5 @@
 import React from 'react';
-import mickiImageFooter from '../../assets/images/mickiImageFooter.png';
+// import mickiImageFooter from '../../assets/images/mickiImageFooter.png';
 import {
   Box,
   Typography,
