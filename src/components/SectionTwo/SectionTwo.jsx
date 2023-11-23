@@ -127,15 +127,14 @@ import elipse90 from "../../assets/images/Ellipse90.png"
           alignItems:"center",
           justifyContent:"center",
           paddingTop:"40px",
-          
-      
-
+          paddingBottom:"77px"
         },
         [theme.breakpoints.between('sm', 'md')]: {
           display:"flex",
           alignItems:"center",
           justifyContent:"center",
-          paddingTop:"42px"
+          paddingTop:"42px",
+          paddingBottom:"78px"
           
         },
         [theme.breakpoints.up('md')]: {
@@ -151,6 +150,7 @@ import elipse90 from "../../assets/images/Ellipse90.png"
             <Box sx={{
               [theme.breakpoints.down('sm')]: {
                 paddingLeft:"24px"
+
               },
               [theme.breakpoints.between('sm', 'md')]: {
                 paddingLeft:"25px"
@@ -164,7 +164,7 @@ import elipse90 from "../../assets/images/Ellipse90.png"
             </Box>
           </Box>
         </Box>
-        {/* Final box acoperier */}
+        {/* Final box acoperiere */}
       </Box>
     </Box>
     </Box>

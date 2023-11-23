@@ -44,7 +44,7 @@ export default function Header() {
         sx={{
           display: 'flex',
           justifyContent: 'center',
-          marginTop: '19.2px',
+          marginTop: '20px',
         }}
       >
         <Box
@@ -96,7 +96,7 @@ export default function Header() {
             alignItems: 'center',
             justifyContent: 'center',
             display: { xs: 'flex', md: 'none' },
-            margin: '0px',
+           
           }}
         >
           <Box sx={{ marginRight: 'auto' }}>
@@ -124,9 +124,24 @@ export default function Header() {
             className={style.menu}
             sx={{
               backgroundColor: '#1D1260',
-              marginTop: '15px',
+              marginTop: '80px',
               width: '100vw',
               zIndex: 1000,
+              display:"flex",
+              justifyContent:"center",
+              '& .css-6hp17o-MuiList-root-MuiMenu-list': {
+                backgroundColor: '#1D1260',
+                display:"flex",
+                flexDirection:"column",
+                gap:"30px",
+                boxShadow:"0px 0px 0px 0px",
+             
+              },
+
+              '& .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper':{
+                boxShadow:"0px 0px 0px 0px",
+
+              }
             }}
           >
             {menuItems.map((menuItem, index) => (
