@@ -14,12 +14,11 @@ export default function Footer() {
   return (
     <Box>
       <Box>
-        <Box
+        {/* <Box
           sx={{
             position: 'relative',
             top: 1096,
             left: 260,
-
             [theme.breakpoints.down('sm')]: {},
             [theme.breakpoints.between('sm', 'md')]: {},
             [theme.breakpoints.up('md')]: {
@@ -28,7 +27,7 @@ export default function Footer() {
           }}
         >
           <img src={mickiImageFooter} alt=""></img>
-        </Box>
+        </Box> */}
         <Box
           sx={{
             [theme.breakpoints.down('sm')]: {},
@@ -36,18 +35,16 @@ export default function Footer() {
             [theme.breakpoints.up('md')]: {
               marginLeft: '226px',
             },
-
             display: 'grid',
             gridTemplateColumns: {
-              xs: 'auto auto', // O coloană pe ecranele de dimensiuni extra-small (xs)
-              sm: 'auto auto', // Două coloane pe ecranele de dimensiuni small (sm) și mai mari
-              md: 'auto auto auto auto auto ', // Trei coloane pe ecranele de dimensiuni medium (md) și mai mari
-              lg: 'auto auto auto auto auto ', // Patru coloane pe ecranele de dimensiuni large (lg) și mai mari
+              xs: 'auto auto',  
+              sm: 'auto auto',  
+              md: 'auto auto auto auto auto ',  
+              lg: 'auto auto auto auto auto ',  
             },
-            gap: 'auto', // Spațiu între elementele grid
+            gap: 'auto',  
           }}
         >
-          {/* Blok1 */}
           <Box>
             <List>
               <ListItem>
@@ -75,7 +72,6 @@ export default function Footer() {
               </ListItem>
             </List>
           </Box>
-          {/* Blok2 */}
           <Box>
             <List sx={{ width: 'auto' }}>
               <ListItem>
@@ -100,7 +96,6 @@ export default function Footer() {
               </ListItem>
             </List>
           </Box>
-          {/* blok3 */}
           <Box>
             <List sx={{ width: 'auto' }}>
               <ListItem>
@@ -122,7 +117,6 @@ export default function Footer() {
               </ListItem>
             </List>
           </Box>
-          {/* Blok4 */}
           <Box>
             <List sx={{ width: 'auto' }}>
               <ListItem>
@@ -153,7 +147,6 @@ export default function Footer() {
               </ListItem>
             </List>
           </Box>
-          {/* blok5 */}
           <Box>
             <List sx={{ width: 'auto' }}>
               <ListItem>
@@ -196,8 +189,6 @@ export default function Footer() {
               </ListItem>
             </List>
           </Box>
-          {/* blok7 */}
-
           <Box>
             <List sx={{ width: 'auto' }}>
               <ListItem>
@@ -220,7 +211,6 @@ export default function Footer() {
             </List>
           </Box>
         </Box>
-
         <Box
           sx={{
             backgroundColor: '#1D1260',
