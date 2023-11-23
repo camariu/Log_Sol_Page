@@ -153,6 +153,7 @@ export default function Header() {
                   width: '100vw',
                   zIndex: 2000,
                   display: 'flex',
+                 
                   '&:hover': {
                     backgroundColor: 'rgba(245, 116, 56, 0.8)',
                   },
@@ -175,9 +176,10 @@ export default function Header() {
               <Button
                 color="inherit"
                 sx={{
+                  color:"#FFF",
                   padding: '12px',
                   backgroundColor: '#F57438',
-                  width: '343px',
+                  width: '323px',
                   height: '48px',
                   '&:hover': {
                     backgroundColor: 'rgba(245, 116, 56, 0.8)',
@@ -191,7 +193,7 @@ export default function Header() {
                 />
                 Shop
               </Button>
-              <Typography variant="body1">
+              <Typography variant="body1" sx={{color:"RGBA(255,255,255,0.7 )", paddingTop:"22px", paddingBottom:"25px"}}>
                 © 2021-2022, All Rights Reserved
               </Typography>
             </Box>
